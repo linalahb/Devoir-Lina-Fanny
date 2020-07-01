@@ -1,0 +1,167 @@
+style.css
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px
+	font-family: 'Roboto', sans-serif;}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color:rgba(217, 85, 85, 1)}
+
+
+h3{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color:rgba(217, 85, 85, 1)}
+
+
+h4{
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: orange}
+
+header{
+	height: 80px}
+
+footer{
+	height: 80px;
+	text-align: center;
+	color:white;
+	background:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	border-top:2px;
+	padding-top: 30px;
+}
+
+
+nav li{
+	float:left;
+	background: rgb(245, 210, 85);
+	list-style-type: none;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width: 100%;
+	background: rgb(245, 210, 85);
+	margin: 0 auto;
+}
+	
+
+nav a{
+	padding: 20px 30px;
+	display: inline-block;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	width: 100%;
+}
+
+a:hover {
+  position: relative;
+  top:1px;
+  }
+
+p{
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+
+.menu{
+display: table;
+margin: 0 auto;
+}
+
+#navigation {
+margin : 0 auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#bandeannonce {
+height: 500px;
+align-content: center;
+justify-content: center;
+}
+
+.container {
+margin: 0px 10%;
+margin-left: 0px;
+margin-right: 0px;
+padding: 20px 30px;
+display: inline-flex;
+}
+
+.right {
+background: #d9d9d9;
+padding: 20px;
+font-family: 'Roboto', sans-serif;
+float: left;
+text-align: justify;
+width : 50%;
+}
+
+.left{
+float: left;
+align-content: center;
+justify-content: center;
+width : 50%;	
+}
+
+.réalisateurs{
+  border:2px solid #F2F2F2;
+  margin:15px;
+  padding:15px O;
+  text-align:center;
+  witdh:400px;
+  display: inline-block;
+  background: white;}
+
+.acteurs{
+  border:2px solid #F2F2F2;
+  margin:15px;
+  padding:15px O;
+  text-align:center;
+  witdh:400px;
+  display: inline-table;}
+
+  .acteursoriginaux{
+  border:2px solid #F2F2F2;
+  margin:15px;
+  padding:15px O;
+  text-align:center;
+  witdh:400px;
+  display: inline-table;}
+
+  .containerbis{
+  	text-align: center;
+  	witdh:400px;
+  }
+ 
+
+ img{
+  	width: 150px;
+  	height: auto;}
+
+
+@media screen and (max-width: 780px)
